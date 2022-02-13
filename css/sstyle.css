@@ -1,0 +1,209 @@
+.encabezado {
+  background-image: url(./img/mangaheader.png);
+  background-color: #65adad;
+  background-size: cover;
+}
+
+.logo {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+.header__navbar ul {
+  padding: 2rem;
+  list-style-type: none;
+}
+
+.header__navbar li {
+  display: inline-block;
+}
+
+.header__navbar a {
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  font-size: 18px;
+  background-color: #65adad;
+  margin: 10px;
+}
+
+.header__navbar--principal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+.main__titulo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: #614e0f;
+  font-size: 40px;
+  padding: 20px;
+}
+
+.novedades {
+  text-align: center;
+  margin: 50px;
+  padding: 30px;
+  border: solid 1px;
+  border-radius: 4px;
+}
+
+.novedades h2 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.novedades p {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.imagenes {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+  -ms-grid-rows: auto;
+      grid-template-rows: auto;
+      grid-template-areas: "imagenUno imagenDos imagenTres imagenCuatro" "imagenCinco imagenSeis imagenSiete imagenOcho";
+}
+
+.imagenUno {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: imagenUno;
+}
+
+.imagenDos {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: imagenDos;
+}
+
+.imagenTres {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+  grid-area: imagenTres;
+}
+
+.imagenCuatro {
+  -ms-grid-row: 1;
+  -ms-grid-column: 4;
+  grid-area: imagenCuatro;
+}
+
+.imagenCinco {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: imagenCinco;
+}
+
+.imagenSeis {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: imagenSeis;
+}
+
+.imagenSiete {
+  -ms-grid-row: 2;
+  -ms-grid-column: 3;
+  grid-area: imagenSiete;
+}
+
+.imagenOcho {
+  -ms-grid-row: 2;
+  -ms-grid-column: 4;
+  grid-area: imagenOcho;
+}
+
+@media only screen and (max-width: 599px) {
+  .footer {
+    display: none;
+  }
+  .imagenes {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    -ms-grid-rows: auto;
+        grid-template-rows: auto;
+        grid-template-areas: "imagenUno" "imagenDos" "imagenTres" "imagenCuatro" "imagenCinco" "imagenSeis" "imagenSiete" "imagenOcho";
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1023px) {
+  .imagenes {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: auto;
+        grid-template-rows: auto;
+        grid-template-areas: "imagenUno imagenDos" "imagenTres imagenCuatro" "imagenCinco imagenSeis" "imagenSiete imagenOcho";
+  }
+}
+
+.footer__menu ul {
+  padding: 2rem;
+  list-style-type: none;
+  background-image: url(./img/footermanga.png);
+  background-color: seashell;
+  background-size: cover;
+}
+
+.footer__menu a {
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  color: white;
+  font-size: 18px;
+  background-color: #65adad;
+  margin: 10px;
+}
+
+.wpp {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto Slab', serif;
+  font-size: 1rem;
+  background-color: #65adad;
+}
+
+.formulario {
+  text-align: center;
+  color: white;
+  font-size: 18px;
+  background-color: #65adad;
+  margin: 10px;
+}
+
+.pagos {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  background-color: #65adad;
+  margin: 10px;
+}
+/*# sourceMappingURL=sstyle.css.map */

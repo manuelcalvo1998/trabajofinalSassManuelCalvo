@@ -1,0 +1,32 @@
+.encabezado{
+    background-image: url(./img/mangaheader.png);
+    background-color: rgb(101, 173, 173);
+    background-size: cover;
+}
+
+.logo{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+.header__navbar ul{
+    padding: 2rem;
+    list-style-type: none;
+}
+.header__navbar li{
+display: inline-block;
+}
+.header__navbar a{
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    background-color: rgb(101, 173, 173);
+    margin: 10px;
+}
+
+.header__navbar--principal{
+    display: flex;
+    flex-direction: row-reverse;
+    
+}

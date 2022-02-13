@@ -1,0 +1,21 @@
+.footer__menu ul{
+    padding: 2rem;
+    list-style-type: none;
+    background-image: url(./img/footermanga.png);
+    background-color: seashell;
+    background-size: cover;
+}
+
+.footer__menu a{
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    color: white;
+    font-size: 18px;
+    background-color: rgb(101, 173, 173);
+    margin: 10px;
+}
+.wpp{
+    text-decoration: none;
+    list-style-type: none;
+}
